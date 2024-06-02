@@ -1,0 +1,172 @@
+{
+    "tag": "greeting",
+    "patterns": [
+      "Xin chào",
+      "Bạn khỏe không?",
+      "Có ai ở đó không?",
+      "Hello",
+      "Chào buổi sáng",
+      "Chào bạn",
+      "Hi",
+      "Chào anh/chị",
+      "Chào buổi chiều",
+      "Chào buổi tối"
+    ],
+    "responses": [
+      "Xin chào, cảm ơn bạn đã ghé thăm",
+      "Rất vui được gặp bạn",
+      "Xin chào, bạn cần giúp gì không?",
+      "Chào bạn, mình có thể giúp gì cho bạn?",
+      "Hello! Mình có thể hỗ trợ bạn điều gì?",
+      "Chào bạn! Mình có thể giúp gì cho bạn?",
+      "Chào bạn! Bạn cần hỗ trợ gì không?",
+      "Chào bạn! Có gì mình có thể giúp bạn không?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "hours",
+    "patterns": [
+      "Cửa hàng mở cửa vào giờ nào?",
+      "Giờ làm việc của bạn là gì?",
+      "Khi nào bạn mở cửa?",
+      "Bạn mở cửa lúc mấy giờ?",
+      "Thời gian hoạt động của cửa hàng là khi nào?",
+      "Cửa hàng hoạt động vào giờ nào?",
+      "Giờ mở cửa như thế nào?",
+      "Thời gian mở cửa cửa hàng là khi nào?"
+    ],
+    "responses": [
+      "Chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+      "Giờ làm việc của chúng tôi là từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+      "Cửa hàng hoạt động từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+      "Thời gian mở cửa là từ 9 giờ sáng đến 9 giờ tối hàng ngày",
+      "Chúng tôi hoạt động từ 9 giờ sáng đến 9 giờ tối tất cả các ngày trong tuần"
+    ]
+  },
+  {
+    "tag": "menu",
+    "patterns": [
+      "Có những mẫu điện thoại mới nào đang được bán ở cửa hàng",
+      "Điện thoại nào mới ra mắt?",
+      "Cửa hàng có những sản phẩm mới nào?",
+      "Mẫu điện thoại mới nhất là gì?",
+      "Có điện thoại nào vừa ra mắt không?",
+      "Những mẫu điện thoại mới nào có sẵn?",
+      "Các mẫu điện thoại mới hiện có là gì?",
+      "Có sản phẩm mới nào đang bán không?"
+    ],
+    "responses": [
+      "Cửa hàng chúng tôi đang có các mẫu sản phẩm mới như: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé",
+      "Những sản phẩm mới nhất đang bán chạy như: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé",
+      "Chúng tôi có các mẫu điện thoại mới như: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé",
+      "Các sản phẩm mới vừa ra mắt bao gồm: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé"
+    ]
+  },
+  {
+    "tag": "payments",
+    "patterns": [
+      "Bạn nhận thẻ tín dụng không?",
+      "Chỉ nhận thanh toán bằng tiền mặt à?",
+      "Có thể thanh toán bằng thẻ tín dụng không?",
+      "Cửa hàng có chấp nhận thẻ không?",
+      "Tôi có thể trả bằng thẻ không?",
+      "Bạn có nhận thanh toán thẻ không?",
+      "Có hỗ trợ thanh toán bằng thẻ tín dụng không?",
+      "Thanh toán bằng thẻ có được không?"
+    ],
+    "responses": [
+      "Chúng tôi chấp nhận thẻ PayPal hoặc thanh toán tiền mặt",
+      "Bạn có thể thanh toán bằng thẻ Paypal hoặc tiền mặt",
+      "Chúng tôi nhận thanh toán qua PayPal hoặc bằng tiền mặt",
+      "Cửa hàng chấp nhận thanh toán bằng thẻ Paypal và tiền mặt",
+      "Bạn có thể sử dụng thẻ Paypal hoặc tiền mặt để thanh toán"
+    ]
+  },
+  {
+    "tag": "opentoday",
+    "patterns": [
+      "Hôm nay bạn có mở cửa không?",
+      "Hôm nay bạn mở cửa vào lúc nào?",
+      "Giờ làm việc của bạn hôm nay là gì?",
+      "Cửa hàng hôm nay có mở không?",
+      "Giờ mở cửa hôm nay như thế nào?",
+      "Hôm nay cửa hàng mở cửa không?",
+      "Thời gian mở cửa hôm nay là khi nào?",
+      "Cửa hàng hôm nay mở lúc mấy giờ?"
+    ],
+    "responses": [
+      "Chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+      "Giờ làm việc của chúng tôi là từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+      "Hôm nay chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối",
+      "Cửa hàng mở cửa từ 9 giờ sáng đến 9 giờ tối hàng ngày",
+      "Hôm nay chúng tôi hoạt động từ 9 giờ sáng đến 9 giờ tối"
+    ]
+  },
+  {
+    "tag": "completeorder",
+    "patterns": [
+      "Vậy cho tôi đặt hàng nhé",
+      "Tôi muốn đặt hàng",
+      "Làm sao để đặt hàng?",
+      "Cho tôi đặt một sản phẩm",
+      "Làm thế nào để mua hàng?",
+      "Tôi có thể đặt hàng bằng cách nào?",
+      "Cách thức đặt hàng như thế nào?",
+      "Hướng dẫn tôi cách đặt hàng"
+    ],
+    "responses": [
+      "Bạn vui lòng chọn sản phẩm cần mua và đặt hàng giúp mình nhé!",
+      "Vui lòng chọn sản phẩm và đặt hàng trên hệ thống của chúng tôi.",
+      "Bạn có thể chọn sản phẩm và tiến hành đặt hàng trên trang web của chúng tôi.",
+      "Hãy chọn sản phẩm và làm theo hướng dẫn để đặt hàng.",
+      "Bạn vui lòng chọn sản phẩm và hoàn tất quy trình đặt hàng trên trang web."
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Tạm biệt",
+      "Hẹn gặp lại bạn sau",
+      "Tạm biệt",
+      "Chào tạm biệt",
+      "Hẹn gặp lại",
+      "Tạm biệt nhé",
+      "Bye bye",
+      "Hẹn gặp lại bạn"
+    ],
+    "responses": [
+      "Hẹn gặp lại bạn sau, cảm ơn bạn đã đến",
+      "Chúc bạn một ngày tốt lành",
+      "Tạm biệt! Hẹn gặp lại sớm.",
+      "Chào tạm biệt! Chúc bạn một ngày tốt lành.",
+      "Hẹn gặp lại bạn! Cảm ơn bạn đã ghé thăm.",
+      "Tạm biệt! Mong sớm gặp lại bạn.",
+      "Chào bạn! Hẹn gặp lại vào lần sau.",
+      "Tạm biệt! Chúc bạn có một ngày tuyệt vời."
+    ]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "Cảm ơn",
+      "Cảm ơn bạn",
+      "Thật là hữu ích",
+      "Cảm ơn rất nhiều",
+      "Mình rất cảm kích",
+      "Rất biết ơn",
+      "Cảm ơn sự giúp đỡ của bạn",
+      "Cảm ơn nhé"
+    ],
+    "responses": [
+      "Rất vui được giúp đỡ!",
+      "Bất cứ lúc nào!",
+      "Hân hạnh",
+      "Rất vui vì có thể giúp bạn!",
+      "Cảm ơn bạn! Mình luôn sẵn sàng hỗ trợ.",
+      "Không có gì, mình rất vui khi có thể giúp bạn.",
+      "Rất hân hạnh được giúp đỡ bạn!",
+      "Cảm ơn bạn! Nếu cần gì thêm, cứ nhắn mình nhé."
+    ]
+  }
+  

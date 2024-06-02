@@ -13,17 +13,15 @@ stemmer = LancasterStemmer()
 
 import numpy as np
 import tflearn
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import random
-import warnings
-warnings.filterwarnings("ignore")
 
 
 # In[2]:
 
 
 import json
-with open('C:/Users/Admin/Desktop/ChatBot-test/chatbot-demo-test/data/intents_test.json', encoding='utf-8') as json_data:
+with open('C:/Users/Admin/Desktop/ChatBot-test/chatbot-demo/data/intents test.json') as json_data:
     intents = json.load(json_data)
 
 
@@ -93,6 +91,9 @@ print (len(words), "unique stemmed words", words)
 # In[4]:
 
 
+#Create training data
+import numpy as np
+
 # Khởi tạo danh sách training_data
 training_data = []
 output_empty = [0] * len(classes)
@@ -141,14 +142,13 @@ print(train_y[1])
 
 
 # tf.reset_default_graph()
-tf.reset_default_graph()
+tf.compat.v1.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(train_x[0])])
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net, optimizer='adam', loss='categorical_crossentropy')
-# net = tflearn.regression(net, optimizer=tf.compat.v1.train.AdamOptimizer(), loss='sparse_categorical_crossentropy')
 
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 
